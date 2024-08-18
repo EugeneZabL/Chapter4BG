@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UIBilder/Demo/DemoWorldSpace.uss?fileID=7433441132597879392&amp;guid=6a4e55ef427ca7a458d7b677b429962b&amp;type=3#DemoWorldSpace" />
+    <ui:VisualElement name="MainRoot" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="BackGround" style="flex-grow: 1; background-color: rgb(72, 23, 69); border-left-color: rgb(151, 54, 138); border-right-color: rgb(151, 54, 138); border-top-color: rgb(151, 54, 138); border-bottom-color: rgb(151, 54, 138); margin-top: 5%; margin-right: 5%; margin-bottom: 5%; margin-left: 5%; border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; justify-content: space-around;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="Button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="cursor" style="flex-grow: 1; position: absolute; color: rgb(27, 27, 27); background-color: rgba(72, 72, 72, 0.85); left: initial; top: initial; right: initial; bottom: initial; width: 8%; height: 8%; border-top-left-radius: 360px; border-top-right-radius: 360px; border-bottom-right-radius: 360px; border-bottom-left-radius: 360px; transform-origin: right bottom;" />
+</ui:UXML>

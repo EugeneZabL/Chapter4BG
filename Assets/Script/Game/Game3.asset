@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e432773e53063be42b4ee04441096a70, type: 3}
+  m_Name: Game3
+  m_EditorClassIdentifier: 
+  Name: Red Ship
+  Description: Cool game about ship. Dive into a mystical world where power, fate,
+    and destiny collide in a battle for survival.
+  Ico: {fileID: 21300000, guid: f330fac50103a7d4db0f6d4c833f3bf9, type: 3}
+  ScrenShot:
+  - {fileID: 21300000, guid: dc5b52f8f5a448345bf3559af412a7f1, type: 3}
+  - {fileID: 21300000, guid: 2d82cb964a36a9749a5eed683a1ab069, type: 3}
+  - {fileID: 21300000, guid: a1779124010c46140b9e4a4d01ad683b, type: 3}
+  - {fileID: 21300000, guid: 70d21f08adfbf59499d58d2b18899c29, type: 3}

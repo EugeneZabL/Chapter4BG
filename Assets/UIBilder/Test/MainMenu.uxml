@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UIBilder/Test/MainMenu.uss?fileID=7433441132597879392&amp;guid=34baef45e1e57fa48b4f60e292a57f67&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/UIBilder/Demo/DemoWorldSpace.uss?fileID=7433441132597879392&amp;guid=6a4e55ef427ca7a458d7b677b429962b&amp;type=3#DemoWorldSpace" />
+    <ui:VisualElement name="Menu" style="flex-grow: 1; width: 40%; height: 100%; flex-direction: row; align-items: stretch; align-self: auto; justify-content: flex-start;">
+        <ui:VisualElement name="BackGround" style="flex-grow: 1; background-color: rgb(46, 52, 66); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border-left-color: rgba(0, 0, 0, 0.6); border-right-color: rgba(0, 0, 0, 0.6); border-top-color: rgba(0, 0, 0, 0.6); border-bottom-color: rgba(0, 0, 0, 0.6); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; justify-content: center; align-items: stretch; flex-wrap: wrap; align-self: auto;">
+            <ui:Label tabindex="-1" text="MainMenu" parse-escape-sequences="true" display-tooltip-when-elided="true" class="TextMenu" style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 5px; rotate: -10deg;" />
+            <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" view-data-key="Play" name="PlayButton" class="buttonMenu" />
+            <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsButton" view-data-key="Settings" class="buttonMenu" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" view-data-key="Exit" class="buttonMenu" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
